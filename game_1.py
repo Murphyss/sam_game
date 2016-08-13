@@ -639,10 +639,12 @@ def main():
 				fas="3"
 				other_2()
 			elif fas == "3":
+				"""
 				for passos in range(0,100):
 					parass.update(0,0)
 					parass.draw(tela)
 					pygame.display.flip()
+				"""
 				raise SystemExit ("You win!")
 		
 		if cair:
